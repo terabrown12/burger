@@ -4,10 +4,10 @@ var connection;
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
-    connection = mysqlql.createConnection({
+    connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'hacktheplanet',
+        password: ' ',
         database: 'todoagain_db'
     });
 };
